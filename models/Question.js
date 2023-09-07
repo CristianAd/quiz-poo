@@ -7,7 +7,7 @@
      */
     constructor(pregunt, opcione, respuest){
         this.text = pregunt
-        this.pregun = opcione
+        this.opcione = opcione
         this.respp = respuest
     }
 

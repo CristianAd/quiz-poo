@@ -41,11 +41,11 @@ export class Quiz{
 
     // Permite avanzar a la siguiente pregunta, cuando el usuario intente adivinar
     guess(answer){
-
+            console.log(answer)
         // Primero necesito verificar si la respuesta es válida o no para aumentar un puntaje
 
         if (this.getQuestionIndex().correctAnswer(answer)) {
-            
+            this.score++
         }
 
         this.questionIndex++
@@ -54,4 +54,3 @@ export class Quiz{
 
 }
 
- 
